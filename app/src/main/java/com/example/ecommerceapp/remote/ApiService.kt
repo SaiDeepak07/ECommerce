@@ -1,14 +1,12 @@
 package com.example.ecommerceapp.remote
 
-import com.example.ecommerceapp.models.LoginRequest
-import com.example.ecommerceapp.models.LoginResponse
-import com.example.ecommerceapp.models.ProductResponse
-import com.example.ecommerceapp.models.RegisterRequest
-import com.example.ecommerceapp.models.RegisterResponse
+import com.example.ecommerceapp.model.LoginRequest
+import com.example.ecommerceapp.model.LoginResponse
+import com.example.ecommerceapp.model.ProductResponse
+import com.example.ecommerceapp.model.RegisterRequest
+import com.example.ecommerceapp.model.RegisterResponse
 import retrofit2.Call
 import retrofit2.http.Body
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
 import retrofit2.http.GET
 import retrofit2.http.POST
 import retrofit2.http.Path
